@@ -7,4 +7,4 @@ A system simulating real-time accident data analysis. It uses Kafka to collect d
    
 2.  __Consumer(Apache Spark Streaming)__: Consumes the data from the Kafka topic, processes it to identify Average Temperature and Humidity by State, Top 3 Cities with the Highest Accident Severity, and Accident Count by Weather Condition, storing results in databases.
    
-3. __MySQL database__: Stores real-time insights database named "big_data."
+3. __MySQL database__: Stores real-time insights in database named "big_data."
